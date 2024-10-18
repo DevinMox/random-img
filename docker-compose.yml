@@ -14,17 +14,17 @@ services:
     environment:
       SPRING_R2DBC_URL: r2dbc:mysql://random-img-mysql:3306/random_img
       SPRING_R2DBC_USERNAME: root
-      SPRING_R2DBC_PASSWORD: passwd
+      SPRING_R2DBC_PASSWORD: 3344520@me
       SPRING_DATA_REDIS_HOST: random-img-redis
       SPRING_DATA_REDIS_PORT: 6379
       BASIC_AUTH_USERNAME: username
       BASIC_AUTH_PASSWORD: "{noop}passwd"
-      S3_ACCESS_ID: xxx
-      S3_ACCESS_TOKEN: xxx
-      S3_ENDPOINT: http://localhost
+      S3_ACCESS_ID: 93e147bbb6b63408c73938443050023e
+      S3_ACCESS_TOKEN: da8188738e995d7df8b1a00df96390ba4450229659d63d64b61daa62ee0d0140
+      S3_ENDPOINT: https://812d0b80125ed9ecc03992931bf974c6.r2.cloudflarestorage.com
       S3_REGION: auto
-      S3_BUCKET_NAME: xxx
-      S3_MANUAL_UPLOAD_BUCKET_NAME: xxx
+      S3_BUCKET_NAME: img
+      S3_MANUAL_UPLOAD_BUCKET_NAME: tmp
       S3_CDN_URL: http://localhost
       PERSISTENCE_REFERER: localhost
       PROBABILITY: 0.01
