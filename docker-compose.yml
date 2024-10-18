@@ -25,7 +25,7 @@ services:
       S3_REGION: auto
       S3_BUCKET_NAME: img
       S3_MANUAL_UPLOAD_BUCKET_NAME: tmp
-      S3_CDN_URL: http://localhost
+      S3_CDN_URL: https://rander.moxen.cn
       PERSISTENCE_REFERER: localhost
       PROBABILITY: 0.01
     volumes:
