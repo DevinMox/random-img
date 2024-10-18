@@ -11,7 +11,7 @@ r2_buckets  = [
 ]
  
 kv_namespaces = [
-    { binding = "imagesCache", id = "your-image-cache-kv-id" }
+    { binding = "imagesCache", id = "177da2d4b393427783aab9837b010b1d" }
 ]
  
 [placement]
